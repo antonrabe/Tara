@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tara</string>
+    <string-array name="spinnerItems">
+        <item>Eat</item>
+        <item>Watch</item>
+        <item>Play</item>
+    </string-array>
+</resources>

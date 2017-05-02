@@ -1,0 +1,17 @@
+<html>
+<body>
+    <form method="POST" action="{{ target }}">
+        Enter Message:<br/>
+        <input type="text" name="msg"></input>
+        <br/>
+        <input type="submit" value="Send"></input>
+    </form>
+    <br/>
+    <br/>
+    {% for msg in message_list %}
+        <b>{{ msg.user }}</b><br/>
+        <i>{{ msg.message }}</i><br/>
+    {% endfor %}
+</body>
+</html>
+
